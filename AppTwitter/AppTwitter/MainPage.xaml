@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppTwitter"
+             x:Class="AppTwitter.MainPage">
+
+  <Button Text="Enviar Tweet" Command="{Binding TwitterCommand}"
+          Image="icon_twitter.png"
+          BackgroundColor="#00a7e5" 
+          TextColor="White" 
+          BorderRadius="15"
+          FontSize="12" 
+          HeightRequest="60"
+          WidthRequest="180"
+          HorizontalOptions="Center" VerticalOptions="Center"/>
+
+</ContentPage>
